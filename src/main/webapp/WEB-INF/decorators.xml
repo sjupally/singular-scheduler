@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<decorators defaultdir="/WEB-INF/decorators">
+	<decorator name="master" page="master.jsp">
+    <pattern>/updateFieldDetails*</pattern>
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="master" page="master.jsp">
+		<pattern>/listConfigurations</pattern>
+	</decorator>
+	<decorator name="master" page="master.jsp">
+		<pattern>/viewResults</pattern>
+		<pattern>/successupdate</pattern>	
+		<pattern>/list</pattern>		
+	</decorator>
+	
+	
+	<decorator name="master" page="master.jsp">
+		<pattern>/countryConfig</pattern>
+	</decorator>
+	<decorator name="master" page="master.jsp">
+		<pattern>/updateParams</pattern>
+	</decorator>
+	<decorator name="list" page="popup.jsp">
+		<pattern>/list*</pattern>
+	</decorator>
+	<decorator name="count" page="popup.jsp">
+		<pattern>/count*</pattern>
+	</decorator>
+	<decorator name="test" page="popup.jsp">
+		<pattern>/testFtp</pattern>
+		<pattern>/testHttp</pattern>
+		
+	</decorator>
+	<decorator name="add" page="popup.jsp">
+		<pattern>/add*</pattern>
+	</decorator>
+	<decorator name="get" page="popup.jsp">
+		<pattern>/get*</pattern>
+	</decorator>
+  <decorator name="customPages" page="customPages.jsp">
+		<pattern>/signIn*</pattern>
+	</decorator>
+    <decorator name="customLogin" page="customLogin.jsp">
+		<pattern>/login*</pattern>
+		<pattern>/logout*</pattern>
+		<pattern>/</pattern>
+	</decorator>
+</decorators>
