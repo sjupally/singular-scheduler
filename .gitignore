@@ -9,3 +9,5 @@ bin/
 # Ignore Gradle GUI config
 gradle-app.setting
 
+/target/m2e-wtp
+/target/
